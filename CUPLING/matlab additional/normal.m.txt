@@ -1,0 +1,27 @@
+
+%»—‰«„Â „ ·» ÃÂ  ‰—„«·«Ì“ ”«“Ì Ê—ÊœÌ ÂÌ ‘»òÂ ⁄’»Ì »—Ê‘ Ê«Ì Ì‰ê
+function preprocessing(i,d,X,l,f,b,r,g)
+g=zeros(10,179);
+r=zeros(10,179);
+b=ones(10,1);
+f=zeros(1,179);
+d=zeros(1,179);
+l=zeros(10,179);
+X=zeros(10,179);
+i=zeros(179,10);
+i=input('i=');
+X=i';
+d=std(X,1);
+f=mean(X);
+r=(b*f);
+g=(b*d);
+l=((X-r)./g);
+l'
+end
+
+
+
+
+
+
+

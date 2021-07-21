@@ -1,0 +1,17 @@
+%»—д«ге г б» ће  —”г ж гЌ«”»е  ж“нЏ  ж«д д”»н ‘Џ«Џн «“  ж“нЏ гЌж—н 
+function plra(h,f,v,t,y,i)
+h=zeros(10,28);
+f=zeros(10,28);
+v=zeros(1,28);
+t=zeros(1,28);
+y=zeros(1,28);
+i=zeros(1,28);
+o=[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27];
+h=input('matrices 1 10*28=');
+f=input('matrices 2 10*28=');
+v=sum(h,1);
+t=sum(f,1);
+y=v./10;
+i=t./10;
+plot(o,y,'--rs',o,i,':b*')
+end

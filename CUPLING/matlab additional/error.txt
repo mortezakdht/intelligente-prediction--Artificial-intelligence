@@ -1,0 +1,14 @@
+ %»—‰«„Â „ ·» ÃÂ  „Õ«”»Â Œÿ« Ì  Œ„Ì‰ ‘»òÂ ⁄’»Ì 
+function err(e,w,r,t,q,o,y,u,c,l,p)
+e=zeros(10,14);
+w=zeros(10,14);
+r=zeros(10,14);
+t=zeros(10,14);
+q=zeros(10,14);
+o=zeros(10,14);
+y=zeros(10,14);
+u=zeros(10,14);
+c=zeros(10,14);
+l=zeros(10,14);
+p=zeros(10,14);
+e=input('input 1=');
